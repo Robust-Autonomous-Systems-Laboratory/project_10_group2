@@ -89,17 +89,18 @@ mm-info --help
 
 ### Create your GitHub repository
 
-1. Go to https://github.com/Robust-Autonomous-Systems-Laboratory/ee5531_proj10 and click **Fork** (top-right).
-2. Set the owner to **Robust-Autonomous-Systems-Laboratory** and give your fork a descriptive name
+1. On GitHub, click **+** (top-right) → **New repository**.
+2. Set the owner to **Robust-Autonomous-Systems-Laboratory** and give your repo a descriptive name
    (e.g. `point-cloud-husky-plaza`).
-3. **Important:** Change the visibility to **Public** — GitHub Pages requires a public repository.
-4. Click **Create fork**.
-5. Clone it to the lab machine:
+3. Under **Configuration**, select **ee5531_proj10** as the repository template.
+4. **Important:** Set visibility to **Public** — GitHub Pages requires a public repository.
+5. Click **Create repository**.
+6. Clone it to the lab machine:
    ```bash
    git clone https://github.com/Robust-Autonomous-Systems-Laboratory/<your-repo>.git
    cd <your-repo>
    ```
-6. Enable GitHub Pages: **Settings → Pages → Deploy from branch → `main`, root `/`**.
+7. Enable GitHub Pages: **Settings → Pages → Deploy from branch → `main`, root `/`**.
    Your viewer will be at `https://robust-autonomous-systems-laboratory.github.io/<your-repo>/`.
 
 ---
