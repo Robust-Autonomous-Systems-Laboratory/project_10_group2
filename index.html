@@ -70,7 +70,7 @@
 
 		// STUDENTS: Replace YOUR_MAP_NAME below with the folder name created by
 		// scripts/2_process_map.sh (e.g. "rosbag2_2026_04_09-19_50_35_0.mcap")
-		Potree.loadPointCloud("./pointclouds/YOUR_MAP_NAME/cloud.js", "map", e => {
+		Potree.loadPointCloud("./pointclouds/YOUR_MAP_NAME/metadata.json", "map", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;

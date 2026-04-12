@@ -341,10 +341,10 @@ viewer.setPointBudget(2_000_000);
 Replace `YOUR_MAP_NAME` with the folder name printed at the end of Step 4:
 ```javascript
 // Change this line:
-Potree.loadPointCloud("./pointclouds/YOUR_MAP_NAME/cloud.js", "map", e => {
+Potree.loadPointCloud("./pointclouds/YOUR_MAP_NAME/metadata.json", "map", e => {
 
 // To (example):
-Potree.loadPointCloud("./pointclouds/rosbag2_2026_04_09-19_50_35_0.mcap/cloud.js", "map", e => {
+Potree.loadPointCloud("./pointclouds/rosbag2_2026_04_09-19_50_35_0.mcap/metadata.json", "map", e => {
 ```
 
 Update the description:
